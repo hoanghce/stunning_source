@@ -1,7 +1,6 @@
 import streamlit as st
 from decouple import config
 import openai
-from openai import OpenAI
 
 response = False
 prompt_tokens = 0
