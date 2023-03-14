@@ -8,7 +8,7 @@ completion_tokes = 0
 total_tokens_used = 0
 cost_of_response = 0
 
-API_KEY = config('OPENAI_API_KEY')
+API_KEY = config('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')
 openai.api_key = API_KEY
 
 
