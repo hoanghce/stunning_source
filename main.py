@@ -1,6 +1,7 @@
 import streamlit as st
 from decouple import config
 import openai
+from openai import OpenAI
 
 response = False
 prompt_tokens = 0
@@ -8,8 +9,8 @@ completion_tokes = 0
 total_tokens_used = 0
 cost_of_response = 0
 
-API_KEY = config('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')
-openai.api_key = API_KEY
+openai = OpenAI('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')
+
 
 
 def make_request(question_input: str):
