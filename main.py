@@ -8,7 +8,7 @@ completion_tokes = 0
 total_tokens_used = 0
 cost_of_response = 0
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 def make_request(question_input: str):
